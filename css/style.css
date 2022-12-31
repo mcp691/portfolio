@@ -1,0 +1,50 @@
+body, html {
+    font-family: sans-serif;
+}
+
+#sidebar {
+    position: fixed;
+    box-shadow: gray 5px 0px 15px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 20rem;
+    color: white;
+    background-color: rgb(63, 75, 87);
+}
+
+#sidebar-bio {
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    right: 2rem;
+}
+
+#bio-img {
+    display: block;
+    width: 15rem;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#bio-info {
+    line-height: .5rem;
+}
+
+#sidebar-nav a {
+    color: white;
+    line-height: 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    transition: background-color .3s ease-in-out;
+}
+
+#sidebar-nav a:hover {
+    background-color: #516170;
+}
+
+#main-container {
+    margin-left: 25rem;
+}
